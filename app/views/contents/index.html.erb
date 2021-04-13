@@ -1,8 +1,12 @@
 <h1>Contents page</h1>
+
 <%= link_to("Create new", new_content_path) %>
 <br><br>
+
 <% @contents.each do |content| %>
-    Title: <%= content.title %>
-    Description: <%= content.description %>
-    <br>
+    Title: <%= content.title %> <br>
+    Description: <%= content.description %><br>
+    <%= link_to("Show", content_path(content))%>
+    <%= link_to("Edit", edit_content_path(content)) %>
+    <br><br>
 <% end %>
