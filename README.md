@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Projeto do bootcamp da Impulso na DIO
+### Segui o tutorial e fiz pequenos ajustes no bootstrap mas ainda tem várias coisas que podem ser melhoradas como um bug ao clicar no botão de retornar do navegador nas páginas com campos de tag entre outros
